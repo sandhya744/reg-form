@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <h1><B><CENTER>STUDENT REGISTRATION FORM</CENTER></B></h1>
+    <form align="CENTER">
+        <label>First name:</label>
+        <input type="text" name="fname" placeholder="first name" required><br><br>
+        <label>Last name:</label>
+        <input type="text" name="lname" placeholder="lastname" required ><br><br>
+        <label>Date Of Birth:</label>
+        <input type="datetime-local" ><br><br>
+        <label>Emai id:</label>
+        <input type="email" name="email" id="mail" placeholder="xxxxxx@xxxxxx" required><br><br>
+        <label>password:</label>
+        <input type="password" pattern="[8-10]"><br><br>
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" id="mobile" pattern="[0-9]{0-10}"><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female<br><br>
+        <label>Address:</label><br>
+        <textarea rows="9" cols="40"></textarea><br><br>
+        <label>City:</label>
+        <input type="text" name="city"><br><br>
+        <label>Pincode:</label>
+        <input type="text" name="pincode" pattern="[0-9]{4-6}"><br><br>
+        <label>State:</label>
+        <select>
+            <option>choose one option</option> 
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+             <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+             <option>Tamil Nadu</option>
+             <option>Telangana</option>
+             <option>Tripura</option>
+             <option>Uttar Pradesh</option>
+             <option>Uttarakhand</option>
+            <option>West Bengal</option>
+        </select><br><br>
+        <label>Country:</label>
+        <input type="text" name="country" required><br><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" name="drawing">drawing
+        <input type="checkbox" name="dancing">dancing
+        <input type="checkbox" name="singing">singing
+        <input type="checkbox" name="sketching">sketching<br><br>
+        <label>Courses applied for::</label>
+        <input type="radio" name="course">BCA
+        <input type="radio" name="course">B.COM
+        <input type="radio" name="course">B.SC
+        <input type="radio" name="course">B.A
+        <br><br>
+        <input type="submit" value="submit" style="background-color:blue;color: white;">
+        <input type="submit" value="reset" style="background-color:blue;color: white;">
+    </form>   
+</body>
+</html>
